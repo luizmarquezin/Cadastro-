@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <style>body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    
+    form {
+        max-width: 400px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    fieldset {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    legend {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form name="form1" method="post" action="grava.jsp">
+        <fieldset>
+            <legend>Cadastro</legend>
+            Nome:
+            <input type="text" name="txtNome"> <br>
+
+            Idade:
+            <input type="text" name="txtIdade"> <br>
+
+            E-mail:
+            <input type="text" name="txtEmail"> <br>
+
+            <input type="submit" value="Gravar">
+        </fieldset>
+    </form>
+</body>
+</html>
